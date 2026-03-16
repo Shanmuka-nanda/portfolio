@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Karapureddy Shanmukhananda Reddy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link rel="stylesheet" href="example.css">
+</head>
+<body class="projects-page">
+  <nav>
+    <ul>
+      <li><a href="example.html">Overview</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="softskills.html">Soft Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="training.html">Training</a></li>
+      <li><a href="certifications.html">Certificates</a></li>
+      <li><a href="achievements.html">Achievements</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="cv.pdf" class="nav-cta" target="_blank" rel="noreferrer">CV</a></li>
+    </ul>
+  </nav>
+
+  <section class="section alt" id="projects">
+    <p class="section-label">Selected work</p>
+    <h2>Projects</h2>
+    <p class="projects-intro">A mix of full-stack web applications, data analytics workflows, and machine learning projects. Each project reflects practical problem solving, clean implementation, and deployment-focused thinking.</p>
+
+    <div class="projects-highlights reveal">
+      <div class="projects-highlight"><strong>10</strong><span>Projects completed</span></div>
+      <div class="projects-highlight"><strong>Full Stack + ML</strong><span>Across frontend, backend, and analytics</span></div>
+      <div class="projects-highlight"><strong>Real-world focus</strong><span>Built for practical usage and outcomes</span></div>
+    </div>
+
+    <div class="project-filters reveal" data-project-filters>
+      <button type="button" class="filter-btn active" data-filter="all" aria-pressed="true">All Projects</button>
+      <button type="button" class="filter-btn" data-filter="ml" aria-pressed="false">ML</button>
+      <button type="button" class="filter-btn" data-filter="data" aria-pressed="false">Data</button>
+      <button type="button" class="filter-btn" data-filter="fullstack" aria-pressed="false">Full Stack</button>
+      <button type="button" class="filter-btn" data-filter="frontend" aria-pressed="false">Frontend</button>
+      <button type="button" class="filter-btn" data-filter="backend" aria-pressed="false">Backend</button>
+      <button type="button" class="filter-btn" data-filter="learning" aria-pressed="false">Learning</button>
+    </div>
+
+    <div class="card-grid" id="projectsGrid">
+      <article class="card reveal" data-url="https://github.com/Shanmuka-nanda/DataAnalysis" data-category="fullstack,data">
+        <div class="card-label">Recent</div>
+        <div class="project-head"><span class="project-type">Placement Project</span></div>
+        <h3>Data Analysis Platform</h3>
+        <figure class="project-shot">
+          <img src="assets/images/data-analysis-dashboard.png" alt="Data Analysis Platform dashboard overview" loading="lazy"
+               onerror="this.style.display='none';this.parentElement.style.display='none';">
+        </figure>
+        <p>Built during Python Full Stack placement training as a secure web app for uploading CSV or Excel files, cleaning datasets in real time, generating interactive dashboards, tracking usage metrics, and exporting PDF reports.</p>
+        <div class="tags"><span>Django</span><span>JavaScript</span><span>Plotly.js</span><span>PapaParse</span><span>SheetJS</span><span>html2pdf.js</span></div>
+        <a class="project-link" href="https://github.com/Shanmuka-nanda/DataAnalysis" target="_blank" rel="noreferrer">Open Repository</a>
+      </article>
+      <article class="card featured reveal" data-url="https://github.com/Shanmuka-nanda/Wine-Quality-Prediction" data-category="ml,data">
+        <div class="card-label">Featured</div>
+        <div class="project-head"><span class="project-type">Machine Learning</span></div>
+        <h3>Wine Quality Classification</h3>
+        <figure class="project-shot">
+          <img src="assets/images/wine-model-accuracy.png" alt="Model accuracy comparison chart for wine quality classification models" loading="lazy"
+               onerror="this.style.display='none';this.parentElement.style.display='none';">
+        </figure>
+        <p>End-to-end ML pipeline on UCI red + white wine datasets with robust preprocessing and model benchmarking.</p>
+        <div class="tags"><span>Python</span><span>Pandas</span><span>NumPy</span><span>Scikit-learn</span></div>
+        <a class="project-link" href="https://github.com/Shanmuka-nanda/Wine-Quality-Prediction" target="_blank" rel="noreferrer">Open Repository</a>
+        <a class="project-link" href="https://www.linkedin.com/posts/k-shanmukha-nanda-reddy_machinelearning-datascience-python-activity-7405569395038687232-50gX?utm_source=share&utm_medium=member_desktop&rcm=ACoAAESbB-IByemCEgsBeGJ9X3Pv0c1RqxMQkrQ" target="_blank" rel="noreferrer">View on LinkedIn</a>
+      </article>
+      <article class="card reveal" data-url="https://www.linkedin.com/posts/k-shanmukha-nanda-reddy_powerbi-dataanalytics-dashboarddesign-activity-7401335095753912320-5BJl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAESbB-IByemCEgsBeGJ9X3Pv0c1RqxMQkrQ" data-category="data">
+        <div class="project-head"><span class="project-type">Data Analytics</span></div>
+        <h3>Automotive Analytics Dashboard</h3>
+        <figure class="project-shot">
+          <img src="assets/images/automotive%20image.jpg" alt="Automotive Analytics Dashboard preview" loading="lazy"
+               onerror="this.style.display='none';this.parentElement.style.display='none';">
+        </figure>
+        <p>Designed an interactive Power BI dashboard to transform raw business data into clear, decision-ready insights with KPI cards, trend analysis, and drill-down visuals for faster reporting.</p>
+        <div class="tags"><span>Power BI</span><span>Data Analytics</span><span>Dashboard Design</span></div>
+        <a class="project-link" href="https://www.linkedin.com/posts/k-shanmukha-nanda-reddy_powerbi-dataanalytics-dashboarddesign-activity-7401335095753912320-5BJl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAESbB-IByemCEgsBeGJ9X3Pv0c1RqxMQkrQ" target="_blank" rel="noreferrer">View on LinkedIn</a>
+      </article>
+      <article class="card reveal" data-url="https://www.linkedin.com/posts/k-shanmukha-nanda-reddy_ipu-scse-exceldashboard-activity-7318315616883326981-qWbc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAESbB-IByemCEgsBeGJ9X3Pv0c1RqxMQkrQ" data-category="data">
+        <div class="project-head"><span class="project-type">Data Analytics</span></div>
+        <h3>Industrial Dynamic Dashboard</h3>
+        <figure class="project-shot">
+          <img src="assets/images/Screenshot%202026-03-16%20133517.png" alt="Industrial Dynamic Dashboard preview" loading="lazy"
+               onerror="this.style.display='none';this.parentElement.style.display='none';">
+        </figure>
+        <p>Built an Excel-based interactive dashboard to track key metrics, highlight trends, and present clean visual summaries for faster and more informed decision-making.</p>
+        <div class="tags"><span>Excel</span><span>Dashboard Design</span><span>Data Analysis</span></div>
+        <a class="project-link" href="https://www.linkedin.com/posts/k-shanmukha-nanda-reddy_ipu-scse-exceldashboard-activity-7318315616883326981-qWbc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAESbB-IByemCEgsBeGJ9X3Pv0c1RqxMQkrQ" target="_blank" rel="noreferrer">View on LinkedIn</a>
+      </article>
+      <article class="card reveal" data-category="frontend">
+        <div class="project-head"><span class="project-type">Frontend</span></div>
+        <h3>Royal Restaurant</h3>
+        <figure class="project-shot">
+          <img src="assets/images/image.png" alt="Royal Restaurant project preview" loading="lazy"
+               onerror="this.style.display='none';this.parentElement.style.display='none';">
+        </figure>
+        <p>Responsive restaurant website with modern UI sections, clean navigation flow, and interactive filtering designed for smooth browsing across devices.</p>
+        <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        <a class="project-link" href="https://github.com/Shanmuka-nanda/html-food-delivery-website" target="_blank" rel="noreferrer">Open Repository</a>
+      </article>
+      <article class="card reveal" data-category="backend,learning">
+        <div class="project-head"><span class="project-type">Web App</span></div>
+        <h3>Python Quiz Portal</h3>
+        <figure class="project-shot">
+          <img src="assets/images/Screenshot%202026-03-16%20143350.png" alt="Python Quiz Portal preview" loading="lazy"
+               onerror="this.style.display='none';this.parentElement.style.display='none';">
+        </figure>
+        <p>Timer-based quiz application with modular question flow, scoring logic, and auto-evaluation to support quick learning assessments.</p>
+        <div class="tags"><span>Python</span><span>Flask</span><span>Quiz Logic</span></div>
+        <a class="project-link" href="https://github.com/Shanmuka-nanda/quiz-portal" target="_blank" rel="noreferrer">Open Repository</a>
+      </article>
+      <article class="card reveal" data-category="learning,data">
+        <div class="project-head"><span class="project-type">Learning Tool</span></div>
+        <h3>VAK Learning Style Quiz</h3>
+        <figure class="project-shot">
+          <img src="assets/images/Screenshot%202026-03-16%20140259.png" alt="VAK Learning Style Quiz preview" loading="lazy"
+               onerror="this.style.display='none';this.parentElement.style.display='none';">
+        </figure>
+        <p>Streamlit-based assessment that identifies Visual, Auditory, and Kinesthetic learning preference with simple, user-friendly interaction.</p>
+        <div class="tags"><span>Streamlit</span><span>Python</span><span>EdTech</span></div>
+        <a class="project-link" href="https://github.com/Shanmuka-nanda/VAK-Quiz" target="_blank" rel="noreferrer">Open Repository</a>
+      </article>
+      <article class="card reveal" data-category="backend,fullstack">
+        <div class="project-head"><span class="project-type">Backend System</span></div>
+        <h3>Contact Book</h3>
+        <figure class="project-shot">
+          <img src="assets/images/Screenshot%202026-03-16%20141509.png" alt="Contact Book project preview" loading="lazy"
+               onerror="this.style.display='none';this.parentElement.style.display='none';">
+        </figure>
+        <p>Flask-powered contact manager with Trie prefix search, hash map lookups, CSV import/export, duplicate detection, reminders, and advanced filters.</p>
+        <div class="tags"><span>Flask</span><span>Trie</span><span>Hash Maps</span><span>CSV</span></div>
+        <a class="project-link" href="https://github.com/Shanmuka-nanda/contact-book" target="_blank" rel="noreferrer">Open Repository</a>
+      </article>
+      <article class="card reveal" data-category="frontend,learning">
+        <div class="project-head"><span class="project-type">Frontend + Learning</span></div>
+        <h3>REDO Learning Portal</h3>
+        <figure class="project-shot">
+          <img src="assets/images/Screenshot%202026-03-16%20134549.png" alt="REDO Learning Portal preview" loading="lazy"
+               onerror="this.style.display='none';this.parentElement.style.display='none';">
+        </figure>
+        <p>Track-based learning portal built with Next.js featuring structured notes, mini projects, and guided paths for better self-paced study.</p>
+        <div class="tags"><span>Next.js</span><span>React</span><span>Learning Portal</span></div>
+        <a class="project-link" href="https://github.com/Shanmuka-nanda/REDO-Learning-Portal" target="_blank" rel="noreferrer">Open Repository</a>
+      </article>
+      <article class="card reveal" data-category="fullstack,backend">
+        <div class="project-head"><span class="project-type">Full Stack</span></div>
+        <h3>Grant Finder Chatbot</h3>
+        <figure class="project-shot">
+          <img src="assets/images/Screenshot%202026-03-16%20144348.png" alt="Grant Finder Chatbot preview" loading="lazy"
+               onerror="this.style.display='none';this.parentElement.style.display='none';">
+        </figure>
+        <p>AI-powered grant finder chatbot built with a Flask backend and vanilla HTML/CSS/JavaScript frontend. Supports intelligent grant search, relevance scoring, interactive chat, and smart matching by keywords, categories, and descriptions.</p>
+        <div class="tags"><span>Python</span><span>Flask</span><span>JavaScript</span><span>AI Search</span></div>
+        <a class="project-link" href="https://github.com/Shanmuka-nanda/grant-finder-chatbot" target="_blank" rel="noreferrer">Open Repository</a>
+      </article>
+    </div>
+  </section>
+
+  <footer>
+    <span id="year"></span> Karapureddy Shanmukhananda Reddy. All rights reserved.
+  </footer>
+
+  <script src="example.js"></script>
+</body>
+</html>
